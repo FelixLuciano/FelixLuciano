@@ -1,0 +1,72 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "alignment": "left",
+      "segments": [
+        {
+          "foreground": "lightRed",
+          "style": "plain",
+          "template": "\n<b>{{ .UserName }}</b>  <default>@</> ",
+          "type": "session"
+        },
+        {
+          "foreground": "lightBlue",
+          "properties": {
+            "home_icon": " ",
+            "folder_separator_icon": "  ",
+            "style": "full"
+          },
+          "style": "plain",
+          "template": " {{ .Path }} ",
+          "type": "path"
+        },
+        {
+          "foreground": "yellow",
+          "properties": {
+            "fetch_stash_count": true,
+            "fetch_upstream_icon": true
+          },
+          "style": "plain",
+          "template": " {{ .UpstreamIcon }}{{ .HEAD }}{{ if gt .StashCount 0 }} \uf692 {{ .StashCount }}{{ end }} ",
+          "type": "git"
+        }
+      ],
+      "type": "prompt"
+    },
+    {
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "foreground": "black",
+          "background": "green",
+          "style": "diamond",
+          "leading_diamond": "",
+          "trailing_diamond": "",
+          "template": "{{ if .Venv }} {{ .Venv }}{{ end }}",
+          "type": "python"
+        },
+        {
+          "style": "plain",
+          "template": "\u2800",
+          "type": "python"
+        },
+        {
+          "foreground": "lightGreen",
+          "style": "plain",
+          "template": "\ufb26  ",
+          "type": "root"
+        },
+        {
+          "foreground": "lightGreen",
+          "style": "plain",
+          "template": "\ufb26  ",
+          "type": "text"
+        }
+      ],
+      "type": "prompt"
+    }
+  ],
+  "version": 2
+}
