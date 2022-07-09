@@ -20,9 +20,16 @@
           "style": "plain",
           "template": " {{ .Path }} ",
           "type": "path"
-        },
+        }
+      ],
+      "type": "prompt"
+    },
+    {
+      "alignment": "right",
+      "segments": [
         {
-          "foreground": "yellow",
+          "foreground": "black",
+          "background": "yellow",
           "properties": {
             "fetch_stash_count": true,
             "fetch_upstream_icon": true
