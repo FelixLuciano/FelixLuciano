@@ -1,5 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "console_title_template": "{{ .Folder }}",
   "blocks": [
     {
       "alignment": "left",
@@ -28,7 +29,7 @@
       "alignment": "right",
       "segments": [
         {
-          "foreground": "black",
+          "foreground": "parentBackground",
           "background": "yellow",
           "properties": {
             "fetch_stash_count": true,
@@ -46,7 +47,7 @@
       "newline": true,
       "segments": [
         {
-          "foreground": "black",
+          "foreground": "parentBackground",
           "background": "green",
           "style": "diamond",
           "leading_diamond": "",
@@ -75,5 +76,10 @@
       "type": "prompt"
     }
   ],
+  "transient_prompt": {
+    "foreground": "lightGreen",
+    "style": "plain",
+    "template": "\ufb26  "
+  },
   "version": 2
 }
