@@ -8,15 +8,16 @@
         {
           "foreground": "lightRed",
           "style": "plain",
-          "template": "\n<b>{{ .UserName }}</b>  <default>@</> ",
+          "template": "\n<b>{{ .UserName }}</b>  <darkGray>@</> ",
           "type": "session"
         },
         {
-          "foreground": "lightBlue",
+          "foreground": "default",
           "properties": {
-            "home_icon": " ",
-            "folder_separator_icon": "  ",
-            "style": "full"
+            "home_icon": "\uf46d ",
+            "folder_icon": "\uf115 ",
+            "folder_separator_icon": " \uf0da ",
+            "style": "agnoster_short"
           },
           "style": "plain",
           "template": " {{ .Path }} ",
@@ -50,8 +51,8 @@
           "foreground": "parentBackground",
           "background": "green",
           "style": "diamond",
-          "leading_diamond": "",
-          "trailing_diamond": "",
+          "leading_diamond": "\ue0b6",
+          "trailing_diamond": "\ue0b4",
           "template": "{{ if .Venv }} {{ .Venv }}{{ end }}",
           "type": "python"
         },
@@ -61,9 +62,9 @@
           "type": "python"
         },
         {
-          "foreground": "lightGreen",
+          "foreground": "yellow",
           "style": "plain",
-          "template": "\ufb26  ",
+          "template": "\uF0E7",
           "type": "root"
         },
         {
