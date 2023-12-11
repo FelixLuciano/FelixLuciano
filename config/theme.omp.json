@@ -70,7 +70,7 @@
         {
           "foreground": "lightGreen",
           "style": "plain",
-          "template": "\ufb26  ",
+          "template": "\u03bb  ",
           "type": "text"
         }
       ],
@@ -80,7 +80,7 @@
   "transient_prompt": {
     "foreground": "lightGreen",
     "style": "plain",
-    "template": "\ufb26  "
+    "template": "\u03bb  "
   },
   "version": 2
 }
