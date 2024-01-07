@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-600 -315 1200 630">
+  <rect fill="#FFFFFF" x="-600" y="-315" width="1200" height="630" />
+  <svg xmlns="http://www.w3.org/2000/svg" y="-310" height="1200" width="1200" viewBox="-8 -15 182 212">
+    <clipPath id="mm">
+      <path d="m48,6.125l32,16,0,142,94,0-16,32,-120,0 z" />
+    </clipPath>
+    <path d="M48,40l0,20,0,8q16,8,16,24" fill="none" stroke-width="32" stroke="#666666" />
+    <path d="M32,16l0,16,16,8q16,8,16,24" fill="none" stroke-width="32" stroke="#444444" />
+    <path d="M0,0l48,24q16,8,16,24" fill="none" stroke-width="32" stroke="#222222" />
+    <path d="m64,6.125L64,180l110,0" fill="none" stroke-width="32" stroke="#000000" clip-path="url(#mm)" />
+  </svg>
+  <foreignObject x="-600" y="-315" width="1200" height="630">
+    <style>
+      @import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@700);
+      p {
+        width: 630px;
+        margin: 0;
+        padding: 124px 64px;
+        color: #000000;
+        /* background-color: #1A1414; */
+        font-family: 'Open Sans', sans-serif;
+        font-size: 64px;
+        font-weight: bold;
+        line-height: 1.2em;
+      }
+    </style>
+    <p xmlns="http://www.w3.org/1999/xhtml">
+      Um estudante iniciando minha carreira na Engenharia de Computação
+    </p>
+  </foreignObject>
+</svg>

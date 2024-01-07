@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-600 -315 1200 630">
+  <rect fill="#1B1918" x="-600" y="-315" width="1200" height="630" />
+  <svg xmlns="http://www.w3.org/2000/svg" x="-158" y="-158" height="316" width="316" viewBox="-8 -15 182 212">
+    <clipPath id="mm">
+      <path d="m48,6.125l32,16,0,142,94,0-16,32,-120,0 z" />
+    </clipPath>
+    <path d="M48,40l0,20,0,8q16,8,16,24" fill="none" stroke-width="32" stroke="#777777" />
+    <path d="M32,16l0,16,16,8q16,8,16,24" fill="none" stroke-width="32" stroke="#AAAAAA" />
+    <path d="M0,0l48,24q16,8,16,24" fill="none" stroke-width="32" stroke="#DDDDDD" />
+    <path d="m64,6.125L64,180l110,0" fill="none" stroke-width="32" stroke="#FFFFFF" clip-path="url(#mm)" />
+  </svg>
+</svg>
