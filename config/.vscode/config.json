@@ -106,7 +106,8 @@
     "explorer.sortOrder": "type",
     "files.autoSave": "afterDelay",
     "files.exclude": {
-        "**/__pycache__": true
+        "**/__pycache__": true,
+        "**/.pytest_cache": true
     },
     "git.autofetch": true,
     "git.confirmSync": false,
